@@ -1,0 +1,211 @@
+/* nav start here */
+.bg-light{
+    background-color:black;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 20px;
+    padding: 40px 200px;
+    }
+    
+.eins{
+    color: orangered;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 45px;
+
+}
+.nav-link{
+    height:30px;
+    align-items: center;
+display: flex;
+text-decoration: none;
+font-weight: 500;
+margin-right: 110px;
+border: 50px;
+background-color: rgb(62, 60, 60);
+border-radius:17px;
+}
+#baa{
+    color: rgb(237, 231, 231);
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 10%;
+}
+.baa{
+    color: rgb(237, 231, 231);
+    text-decoration: none;
+}
+
+
+
+/* nav end here */
+main{
+    background-color: black;
+}
+/* div start here */
+.banner-content{
+    color: beige;
+  grid-column: span 7;
+    
+}
+.banner-content2{
+    grid-column: span 5;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    
+}
+.btn1{
+    background-color: orangered;
+    color: beige;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.btn2{
+    background-color: rgb(12, 12, 12);
+    color: beige;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+/* main start here */
+/* .page1{ 
+    width: 1140px;
+    margin: 0 auto;
+    border: 2px solid red;
+    height: 60%;
+    margin-top: 74px;
+} */
+.page2{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page2-contant{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.circular--square { border-radius: 50%; }
+.nickname{
+    color: aliceblue;
+}
+.nickname{
+    border: 2px solid red;
+    display: flex;
+    padding: 200px;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.shehab{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 20px;
+    margin: 0 100px;
+    background-color: grey;
+    padding: 40px;
+  
+}
+    /* border: 2px solid red;
+    display: flex;
+    padding: 200px;
+    margin-left: 70px;
+    justify-content: space-between;
+    align-items: center;
+}*/
+.shb22{
+    color: beige;
+    grid-column: span 7;
+}
+.btnn{
+    background-color: orangered;
+}
+.calcu{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.calcu1,.calcu2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.asdf{
+    grid-column: span 4;
+}
+
+
+.asdf img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.bmi-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 40px 100px;
+    background-color: grey;
+    
+}
+/*.bmi-child1{
+    background-color: brown;}
+.bmi-child2 ,.bmi-child3{
+    background-color: rgb(249, 247, 251);
+}*/
+.tim-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: grey;
+}
+.tim-card img{
+    width: 100%;
+
+}
+.tim-card{
+    position: relative;
+    border-radius: 18px;
+    color: azure;
+
+}
+.trainer{
+    bottom: 10px;
+    left: 20px;
+    position: absolute;
+}
+.bmi-parent2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px 100px;
+    background-color: grey;
+    
+}
+.bal1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2px;
+    column-gap: 2px;
+}
